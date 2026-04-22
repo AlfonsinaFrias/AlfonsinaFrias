@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>BTE Product Exhibtion — Alfonsina Frias Vargas</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<nav>
+  <div class="nav-links">
+    <a href="index.html">Home</a>
+    <a href="about.html">About</a>
+    <a href="portfolio.html" class="active">Portfolio</a>
+  </div>
+  <div class="nav-right">
+    <a href="index.html#contact" class="btn-outline">Get in Touch</a>
+    <img src="images/avatar.jpg" alt="Alfonsina" class="avatar" onerror="this.style.display='none'">
+  </div>
+</nav>
+
+<div class="breadcrumb">
+  <a href="portfolio.html">← Back to Portfolio</a>
+</div>
+
+<main>
+  <div class="project-detail">
+
+    <div class="project-detail-hero">
+      <div class="project-detail-text">
+        <!-- REPLACE: Project title -->
+        <h1>BTE Product Brunchibition</h1>
+        <!-- REPLACE: Project description paragraphs -->
+        <p>The BTE Capstone Brunchibition is the culminating event of the BTE Capstone Course, where students showcase their innovative products and business concepts to an audience of esteemed advisors and industry professionals
+.</p>
+        <p>Attendees take the role of crowdfunders, evaluating each project/process and allocating virtual investment capital (BTE Money) to the ventures they find most promising. Through this interactive format, students gain real-world pitching experience, receive valuable feedback, and expand their professional networks.</p>
+      </div>
+
+      <!-- REPLACE: src with your hero photo for this project -->
+      <img src="images/BTE-Capstone-Money.jpg" alt="Project photo" class="project-detail-img"
+        onerror="this.outerHTML='<div class=\'project-detail-img img-placeholder\'><svg width=\'48\' height=\'48\' viewBox=\'0 0 24 24\' fill=\'none\' stroke=\'currentColor\' stroke-width=\'0.8\'><rect x=\'3\' y=\'3\' width=\'18\' height=\'18\' rx=\'2\'/><circle cx=\'8.5\' cy=\'8.5\' r=\'1.5\'/><polyline points=\'21 15 16 10 5 21\'/></svg></div>'">
+    </div>
+
+
+    <div class="project-gallery">
+      <div>
+        <img src="images/Guests-Brunchibition.jpg" alt="Description"
+          onerror="this.outerHTML='<div class=\'img-placeholder\' style=\'width:100%;aspect-ratio:3/4;\'><svg width=\'40\' height=\'40\' viewBox=\'0 0 24 24\' fill=\'none\' stroke=\'currentColor\' stroke-width=\'0.8\'><rect x=\'3\' y=\'3\' width=\'18\' height=\'18\' rx=\'2\'/><circle cx=\'8.5\' cy=\'8.5\' r=\'1.5\'/><polyline points=\'21 15 16 10 5 21\'/></svg></div>'">
+      </div>
+      <div>
+        <img src="images/Brunchibition-Decor.jpg" alt="Description"
+          onerror="this.outerHTML='<div class=\'img-placeholder\' style=\'width:100%;aspect-ratio:3/4;\'><svg width=\'40\' height=\'40\' viewBox=\'0 0 24 24\' fill=\'none\' stroke=\'currentColor\' stroke-width=\'0.8\'><rect x=\'3\' y=\'3\' width=\'18\' height=\'18\' rx=\'2\'/><circle cx=\'8.5\' cy=\'8.5\' r=\'1.5\'/><polyline points=\'21 15 16 10 5 21\'/></svg></div>'">
+      </div>
+       <img src="images/Anam-Alfonsina-at-BTE-Capstone.jpg" alt="Description"
+          onerror="this.outerHTML='<div class=\'img-placeholder\' style=\'width:100%;aspect-ratio:3/4;\'><svg width=\'40\' height=\'40\' viewBox=\'0 0 24 24\' fill=\'none\' stroke=\'currentColor\' stroke-width=\'0.8\'><rect x=\'3\' y=\'3\' width=\'18\' height=\'18\' rx=\'2\'/><circle cx=\'8.5\' cy=\'8.5\' r=\'1.5\'/><polyline points=\'21 15 16 10 5 21\'/></svg></div>'">
+      </div>
+  
+  </div>
+</main>
+
+<footer>
+  <span>© 2025 Alfonsina Frias Vargas</span>
+</footer>
+
+</body>
+</html>
