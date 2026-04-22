@@ -29,15 +29,12 @@
 
     <div class="project-detail-hero">
       <div class="project-detail-text">
-        <!-- REPLACE: Project title -->
-        <h1>Project Title Here</h1>
-        <!-- REPLACE: Project description paragraphs -->
+        <h1>BTE Design Sprint</h1>
         <p>The BTE Design Sprint is an immersive experiential learning experience where students tackle real business challenges from NYC startups in a one-week intensive program. We bring in mentors and industry professionals and transform the event space into a high-energy environment filled with creativity, collaboration, and interactive activities designed to push teams beyond their comfort zones.
 .</p>
         <p>Throughout the week, students move rapidly from problem framing to ideation, testing, and final pitch—learning how to navigate ambiguity, manage team dynamics, and deliver under pressure. The sprint blends structured methodology with moments of play and reflection, reinforcing that innovation requires both rigor and experimentation..</p>
       </div>
 
-      <!-- REPLACE: src with your hero photo for this project -->
       <img src="images/StudentGroupPinata.jpg" alt="Project photo" class="project-detail-img"
         onerror="this.outerHTML='<div class=\'project-detail-img img-placeholder\'><svg width=\'48\' height=\'48\' viewBox=\'0 0 24 24\' fill=\'none\' stroke=\'currentColor\' stroke-width=\'0.8\'><rect x=\'3\' y=\'3\' width=\'18\' height=\'18\' rx=\'2\'/><circle cx=\'8.5\' cy=\'8.5\' r=\'1.5\'/><polyline points=\'21 15 16 10 5 21\'/></svg></div>'">
     </div>
@@ -50,7 +47,6 @@
     </div>
     -->
 
-    <!-- Photo gallery — add/remove <div> blocks as needed -->
     <div class="project-gallery">
       <div>
         <img src="images/Buzzer.jpg" alt="Description"
