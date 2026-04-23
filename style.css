@@ -443,7 +443,7 @@ hr.contact-divider {
   align-items: start;
   padding: 14px 0;
   border-top: 1px solid var(--border);
-  font-size: 14px;
+  font-size: 18px;
 }
 .project-link-label { color: var(--text-muted); font-size: 18px; }
 .project-link-row a { color: var(--sage-dark); word-break: break-all;font-size: 18px; }
