@@ -445,8 +445,8 @@ hr.contact-divider {
   border-top: 1px solid var(--border);
   font-size: 14px;
 }
-.project-link-label { color: var(--text-muted); font-size: 13px; }
-.project-link-row a { color: var(--sage-dark); word-break: break-all; }
+.project-link-label { color: var(--text-muted); font-size: 18px; }
+.project-link-row a { color: var(--sage-dark); word-break: break-all;font-size: 18px; }
 .project-link-row a:hover { color: var(--text); }
 
 .project-gallery {
