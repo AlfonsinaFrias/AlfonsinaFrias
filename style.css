@@ -406,7 +406,7 @@ hr.contact-divider {
 .project-detail-hero {
   display: grid;
   grid-template-columns: 1fr 1.1fr;
-  gap: 0;
+  gap: 48;
   align-items: start;
   padding: 0 48px 0 48px;
   padding-top: 48px;
