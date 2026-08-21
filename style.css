@@ -501,4 +501,36 @@ footer {
   .about-inner, .project-detail-hero { grid-template-columns: 1fr; }
   .expertise-grid { grid-template-columns: 1fr 1fr; }
   .collection-grid, .collection-items, .work-grid, .project-gallery { grid-template-columns: 1fr; }
+
+  .article-link {
+  display: block;
+  padding: 24px 28px;
+  margin-top: 24px;
+  background: rgba(255, 255, 255, 0.08);
+  border: 1px solid rgba(255, 255, 255, 0.25);
+  border-radius: 4px;
+  text-decoration: none;
+  transition: background 0.2s ease, border-color 0.2s ease;
+}
+
+.article-link:hover {
+  background: rgba(255, 255, 255, 0.15);
+  border-color: rgba(255, 255, 255, 0.5);
+}
+
+.article-link-title {
+  display: block;
+  color: var(--white);
+  font-family: var(--font-serif, serif);
+  font-size: 1.3rem;
+  margin-bottom: 8px;
+}
+
+.article-link-source {
+  display: block;
+  color: rgba(255, 255, 255, 0.7);
+  font-size: 0.9rem;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+}
 }
